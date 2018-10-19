@@ -27,5 +27,5 @@
 get_features = function() {
   # substitute YOUR package name below
   fileloc = system.file('extdata/features.txt', package='ProjectAsPkg')
-  read.table(fileloc)
+  read.table(fileloc, header=TRUE)
 }

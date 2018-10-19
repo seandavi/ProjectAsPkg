@@ -8,7 +8,8 @@ Description: This package contains data, R code, documentation,
     and even a small vignette. It is an example of how this stuff
     works.
 License: MIT
-Suggests: pkgdown
+Suggests: pkgdown,
+    randomForest
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.0
